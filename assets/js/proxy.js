@@ -33,7 +33,7 @@ function isUrl(val = "") {
 function resolveURL(url) {
 	switch(localStorage.getItem("shuttle||proxy")) {
 		case "dy": 
-			return "/shuttle-dn/" + Ultraviolet.codec.xor.decode(url);
+			return "shuttle-dn/" + Ultraviolet.codec.xor.decode(url);
 		default:
 		case "uv":
 			return  __uv$config.prefix + __uv$config.encodeUrl(url);
