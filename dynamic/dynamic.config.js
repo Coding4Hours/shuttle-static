@@ -1,7 +1,7 @@
 // See documentation for more information 
 
 self.__dynamic$config = {
-  prefix: "/shuttle-dn/",
+  prefix: "shuttle-dn/",
   encoding: "xor",
   mode: "production",
   logLevel: 0,
@@ -15,7 +15,7 @@ self.__dynamic$config = {
     ua: null,
   },
   assets: {
-    prefix: "/dynamic/",
+    prefix: "dynamic/",
     files: {
       handler: "dynamic.handler.js",
       client: "dynamic.client.js",
