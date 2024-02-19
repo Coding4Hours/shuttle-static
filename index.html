@@ -83,8 +83,9 @@
 	</div>
 	<div class="header-container" style="margin-bottom: 50px;">
 	</div>
-	<form id="form">
-		<input autofocus autocomplete="off" class="search" id="search" placeholder="URL Or Search" required />
+	<form id="uv-form">
+		<input autofocus autocomplete="off" type="text" class="uv-address" id="search" placeholder="URL Or Search" class="form__input" required />
+                <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
 		<button type="submit" class="submit-button">
 			<i class="fas fa-search searchicon"></i>
 		</button>
