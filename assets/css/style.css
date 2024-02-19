@@ -111,7 +111,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-#form {
+#uv-form {
   border: solid 2px transparent;
   background-clip: padding-box;
   display: flex;
@@ -172,7 +172,7 @@ footer a:hover {
   }
 }
 
-.search {
+.uv-address {
   border-radius: 5px;
   outline: none;
   font-size: 16px;
