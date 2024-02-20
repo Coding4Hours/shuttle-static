@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/shuttle-uv/',
-    bare:'https://bare.benrogo.net',
+    bare:'https://usemetallic.com/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
